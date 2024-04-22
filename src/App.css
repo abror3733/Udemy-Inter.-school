@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Kumbh Sans" ;
+  font-weight: 400;
+  /* background-color: #FCFAFA; */
+}
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('././assets/Fonts/KumbhSans-Regular.woff2') format('woff2'),
+      url('././assets/Fonts/KumbhSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('././assets/Fonts/KumbhSans-Bold.woff2') format('woff2'),
+      url('././assets/Fonts/KumbhSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('././assets/Fonts/KumbhSans-SemiBold.woff2') format('woff2'),
+      url('././assets//Fonts/KumbhSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('././assets/Fonts/KumbhSans-Medium.woff2') format('woff2'),
+      url('././assets/Fonts/KumbhSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.active{
+  background-color: #509CDB;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
