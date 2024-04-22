@@ -26,7 +26,7 @@ newPassword:"123"}
     window.localStorage.setItem("token",JSON.stringify(data))
   }
   return (
-    <div className='flex justify-center pt-[70px] bg-[#FCFAFA]'>
+    <div className='flex justify-center  h-[100vh] pt-[70px] bg-[#FCFAFA]'>
       <Toaster position="top-center" reverseOrder={false}/>
       <div className='flex flex-col space-y-[53px]'>
         <h2 className='text-[36px] text-[#4F4F4F] font-semibold'>Welcome, Log into you account</h2>

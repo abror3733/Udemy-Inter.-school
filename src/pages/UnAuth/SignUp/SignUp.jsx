@@ -20,7 +20,7 @@ function SignUp({setSignUpData}) {
     window.localStorage.setItem("newToken",JSON.stringify(data))
 }
   return (
-    <div className='flex justify-center pt-[40px] bg-[#FCFAFA]'>
+    <div className='flex justify-center h-[100vh] pt-[40px] bg-[#FCFAFA]'>
       <Toaster position="top-center" reverseOrder={false}/>
       <div className='flex flex-col space-y-[33px]'>
         <h2 className='text-[36px] text-[#4F4F4F] font-semibold text-center'>Welcome, Sign up</h2>
